@@ -69,7 +69,7 @@ getSignal.onclick = function () {
     if (receivingSignal.toString().length == 1) {
         receivingSignal += ".00";
     }
-    printSignal.innerHTML = `${22.60}x`;
+    printSignal.innerHTML = `${47.25}x`;
     printSignal.classList.remove("deactivate");
     goTimer(60);
     getSignal.disabled = true;
